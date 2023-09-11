@@ -1,0 +1,62 @@
+[
+    {
+        "_id": {
+            "cliente_id": 2,
+            "data_compra": "2022-03-16"
+        },
+        "produto_mais_vendido": {
+            "quantidade": 4,
+            "descricao": "Laranja"
+        }
+    },
+    {
+        "_id": {
+            "cliente_id": 4,
+            "data_compra": "2022-03-14"
+        },
+        "produto_mais_vendido": {
+            "quantidade": 3,
+            "descricao": "Bolacha"
+        }
+    },
+    {
+        "_id": {
+            "cliente_id": 1,
+            "data_compra": "2022-03-17"
+        },
+        "produto_mais_vendido": {
+            "quantidade": 3,
+            "descricao": "Sabonete"
+        }
+    },
+    {
+        "_id": {
+            "cliente_id": 5,
+            "data_compra": "2022-03-14"
+        },
+        "produto_mais_vendido": {
+            "quantidade": 12,
+            "descricao": "Cerveja"
+        }
+    },
+    {
+        "_id": {
+            "cliente_id": 6,
+            "data_compra": "2022-03-13"
+        },
+        "produto_mais_vendido": {
+            "quantidade": 4,
+            "descricao": "Banana"
+        }
+    },
+    {
+        "_id": {
+            "cliente_id": 3,
+            "data_compra": "2022-03-15"
+        },
+        "produto_mais_vendido": {
+            "quantidade": 3,
+            "descricao": "Bolacha"
+        }
+    }
+]
