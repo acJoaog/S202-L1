@@ -1,66 +1,50 @@
-dataset = [
+dataset_classes = [
     {
-        "cliente_id": 1,
-        "data_compra": "2022-03-17",
-        "produtos": [
-            {"descricao": "Detergente", "quantidade": 2, "preco": 4.73},
-            {"descricao": "Sabão em pó", "quantidade": 1, "preco": 8.59},
-            {"descricao": "Sabonete", "quantidade": 3, "preco": 1.35},
-        ],
+        "classe_id": 1,
+        "nome": "Mago",
+        "dano_AP": 100,
+        "dano_AD": 0,
+        "vida": "800",
+        "saldo": 0
     },
     {
-        "cliente_id": 2,
-        "data_compra": "2022-03-16",
-        "produtos": [
-            {"descricao": "Laranja", "quantidade": 4, "preco": 1.99},
-            {"descricao": "Carne", "quantidade": 2, "preco": 12.99},
-            {"descricao": "Leite", "quantidade": 1, "preco": 3.49},
-        ],
+        "classe_id": 2,
+        "nome": "Tank",
+        "dano_AP": 0,
+        "dano_AD": 80,
+        "vida": "1600",
+        "saldo": 0
     },
     {
-        "cliente_id": 3,
-        "data_compra": "2022-03-15",
-        "produtos": [
-            {"descricao": "Mussarela", "quantidade": 1, "preco": 7.99},
-            {"descricao": "Mortadela", "quantidade": 2, "preco": 6.49},
-            {"descricao": "Bolacha", "quantidade": 3, "preco": 2.79},
-            {"descricao": "Refrigerante", "quantidade": 2, "preco": 5.99},
-        ],
+        "classe_id": 3,
+        "nome": "Assassino",
+        "dano_AP": 40,
+        "dano_AD": 70,
+        "vida": "100",
+        "saldo": 0
+    }, 
+]
+
+dataset_itens = [
+    {
+        "item_id": 1,
+        "nome": "Liandry's Anguish",
+        "dano_AP": 160,
+        "custo": 320,
+        "descricao": "Aumenta o dano AP em 80 pontos"
     },
     {
-        "cliente_id": 4,
-        "data_compra": "2022-03-14",
-        "produtos": [
-            {"descricao": "Arroz", "quantidade": 1, "preco": 10.49},
-            {"descricao": "Feijão", "quantidade": 1, "preco": 7.99},
-            {"descricao": "Macarrão", "quantidade": 2, "preco": 4.29},
-            {"descricao": "Mussarela", "quantidade": 1, "preco": 7.99},
-            {"descricao": "Mortadela", "quantidade": 2, "preco": 6.49},
-            {"descricao": "Bolacha", "quantidade": 3, "preco": 2.79},
-            {"descricao": "Refrigerante", "quantidade": 2, "preco": 5.99},
-        ],
+        "item_id": 2,
+        "nome": "Heartsteel",
+        "vida": 400,
+        "custo": 320,
+        "descricao": "Aumenta a vida em 400 pontos"
     },
     {
-        "cliente_id": 5,
-        "data_compra": "2022-03-14",
-        "produtos": [
-            {"descricao": "Mussarela", "quantidade": 1, "preco": 7.99},
-            {"descricao": "Mortadela", "quantidade": 2, "preco": 6.49},
-            {"descricao": "Cerveja", "quantidade": 12, "preco": 2.99},
-            {"descricao": "Amendoim", "quantidade": 1, "preco": 4.79},
-        ],
-    },
-    {
-        "cliente_id": 6,
-        "data_compra": "2022-03-13",
-        "produtos": [
-            {"descricao": "Maçã", "quantidade": 3, "preco": 3.49},
-            {"descricao": "Banana", "quantidade": 4, "preco": 2.99},
-            {"descricao": "Tomate", "quantidade": 2, "preco": 5.99},
-            {"descricao": "Feijão", "quantidade": 1, "preco": 7.99},
-            {"descricao": "Macarrão", "quantidade": 2, "preco": 4.29},
-            {"descricao": "Mussarela", "quantidade": 1, "preco": 7.99},
-            {"descricao": "Mortadela", "quantidade": 2, "preco": 6.49},
-        ],
-    },
+        "item_id": 3,
+        "nome": "Duskblade of Draktharr",
+        "dano_AD": 100,
+        "custo": 320,
+        "descricao": "Aumenta a vida em 400 pontos"
+    },    
 ]
