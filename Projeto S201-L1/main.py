@@ -1,5 +1,4 @@
 from database import Database
-#from writeAJson import writeAJson
 from PersonagemDAO import PersonagemDAO
 from PersonagemCLI import personagemCLI
 from util import convert_personagem, convert_itens
@@ -44,7 +43,7 @@ try:
         p1.saldo += g1
         print(f"{p1.nome} ganhou {g1} de ouro.")
 
-        g2 = random.randint(120, 300) #gold personagem 1
+        g2 = random.randint(120, 300) #gold personagem 2
         p2.saldo += g2
         print(f"{p2.nome} ganhou {g2} de ouro.")
 
@@ -125,11 +124,11 @@ finally:
 
     # Calcular a média do campo "dano_saldo"
     resultado = collection.aggregate([
-        {"$group": {"_id": None, "media_dano_saldo": {"$avg": "$saldo"}}}
+        {"$group": {"_id": None, "media_saldo": {"$avg": "$saldo"}}}
     ])
     # Extrair o resultado
     for documento in resultado:
-        media_saldo = documento["media_dano_saldo"]
+        media_saldo = documento["media_saldo"]
         print(f"A média do saldo final da partida é: {media_saldo}")
 
     
