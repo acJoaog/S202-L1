@@ -1,5 +1,5 @@
 from bson.objectid import ObjectId
-from diagrama2 import Mago,Tank,Assassino,Item
+from diagrama import Mago,Tank,Assassino,Item
 
 def convert_personagem(database, id):
     collection = database.db["personagens"]

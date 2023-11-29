@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from bson.objectid import ObjectId
-from diagrama2 import Personagem
+from diagrama import Personagem
 
 
 class PersonagemDAO:
@@ -56,5 +56,7 @@ class PersonagemDAO:
         except Exception as e:
             print(f"An error occurred while deleting personagem: {e}")
             return None
-        
+    
+    def return_id(self):
+        return self.id
     

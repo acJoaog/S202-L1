@@ -1,4 +1,4 @@
-from diagrama2 import Mago,Tank,Assassino
+from diagrama import Mago,Tank,Assassino
 
 class SimpleCLI:
     def __init__(self):

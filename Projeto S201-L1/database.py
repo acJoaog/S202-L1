@@ -16,6 +16,7 @@ class Database:
                 tlsAllowInvalidCertificates=True
             )
             self.db = self.clusterConnection[database]
+            self.resetDatabase()
             self.collection = self.db["itens"]
             self.collection.insert_many(dataset_itens)
             print("Conectado ao banco de dados com sucesso!")
